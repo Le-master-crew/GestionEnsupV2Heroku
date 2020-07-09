@@ -25,17 +25,17 @@ INSERT INTO personne (id, adresse, mail, nom, prenom, telephone) VALUES (1, '241
 
 INSERT INTO etudiant (date_naissance, id) VALUES ('01/01/01', 1);
 
-INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('1', '1', '1', '13');
-INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('2', '1', '1', '14');
-INSERT INTO gestionscolaire.personne (id, adresse, mail, nom, prenom, telephone) VALUES ('2', NULL, NULL, NULL, NULL, '989744397');
-INSERT INTO gestionscolaire.etudiant (date_naissance, id) VALUES ('01/12/1997', '2');
-INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('3', '1', '2', '16');
-INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('4', '1', '2', '14');
+INSERT INTO note (id, id_ens, id_etu, valeur) VALUES ('1', '1', '1', '13');
+INSERT INTO note (id, id_ens, id_etu, valeur) VALUES ('2', '1', '1', '14');
+INSERT INTO personne (id, adresse, mail, nom, prenom, telephone) VALUES ('2', NULL, NULL, NULL, NULL, '989744397');
+INSERT INTO etudiant (date_naissance, id) VALUES ('01/12/1997', '2');
+INSERT INTO note (id, id_ens, id_etu, valeur) VALUES ('3', '1', '2', '16');
+INSERT INTO note (id, id_ens, id_etu, valeur) VALUES ('4', '1', '2', '14');
 
-INSERT INTO gestionscolaire.personne (id, adresse, mail, nom, prenom, telephone) VALUES ('3', NULL, NULL, NULL, NULL, '4567876');
-INSERT INTO gestionscolaire.etudiant (date_naissance, id) VALUES ('01/12/1997', '3');
-INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('6', '1', '3', '7');
-INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('5', '1', '3', '8');
+INSERT INTO personne (id, adresse, mail, nom, prenom, telephone) VALUES ('3', NULL, NULL, NULL, NULL, '4567876');
+INSERT INTO etudiant (date_naissance, id) VALUES ('01/12/1997', '3');
+INSERT INTO note (id, id_ens, id_etu, valeur) VALUES ('6', '1', '3', '7');
+INSERT INTO note (id, id_ens, id_etu, valeur) VALUES ('5', '1', '3', '8');
 
 
 
