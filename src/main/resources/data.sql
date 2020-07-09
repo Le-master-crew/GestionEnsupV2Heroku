@@ -23,7 +23,7 @@ INSERT INTO personne (id, adresse, mail, nom, prenom, telephone) VALUES (1, '241
 69003 Lyon','contact@objis.com', 'objis', 'objis', 012030405);
 
 
-INSERT INTO etudiant (date_naissance, id) VALUES ("01/01/01", 1);
+INSERT INTO etudiant (date_naissance, id) VALUES ('01/01/01', 1);
 
 INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('1', '1', '1', '13');
 INSERT INTO gestionscolaire.note (id, id_ens, id_etu, valeur) VALUES ('2', '1', '1', '14');
