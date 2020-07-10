@@ -1,4 +1,4 @@
-# gestionEnsupV1Heroku
+# gestionEnsupV2Heroku
 Bonjour à tous 
 
 http://gestionecolev2.herokuapp.com/gestion/
@@ -23,6 +23,10 @@ L'application a été développée avec Spring Boot. Celle-ci permet de gérer l
   - lire les informations d'un étudiant
  
   - associer un étudiant à un cours
+  
+  - ajouter une note a un étudiant
+  
+  - afficher le graphique de la moyenne des notes
 
 
 A partir d'un navigateur, accéder à : http://gestionecolev2.herokuapp.com/gestion/ . Voici l'écran de connexion où vous pouvez vous connecter avec le compte admin:
